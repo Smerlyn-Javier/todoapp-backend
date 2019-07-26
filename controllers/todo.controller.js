@@ -3,12 +3,12 @@ const { Todo } = require("../models");
 class TodoController {
   async getTodo(req, res, next) {
     const { id } = req.params;
-    const todo = await Todo.findById(id);
+    const todo = await Todo.findById(id).populate("user");
     return res.send(todo);
   }
 
   async getTodos(req, res, next) {
-    const todos = await Todo.find();
+    const todos = await Todo.find().populate("user");
     return res.send(todos);
   }
 
