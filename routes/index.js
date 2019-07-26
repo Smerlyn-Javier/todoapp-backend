@@ -1,3 +1,4 @@
 module.exports = {
-  TodoRoutes: require("./todo.routes")
+  TodoRoutes: require("./todo.routes"),
+  UserRoutes: require("./user.routes")
 };

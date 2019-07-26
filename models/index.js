@@ -1,3 +1,4 @@
 module.exports = {
-  Todo: require("./todo.model")
+  Todo: require("./todo.model"),
+  User: require("./user.model")
 };
