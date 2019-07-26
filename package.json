@@ -1,0 +1,21 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Todo",
+    "MongoDB"
+  ],
+  "author": "Smerlyn Eusebio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6"
+  }
+}
